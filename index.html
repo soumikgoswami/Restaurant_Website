@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome file link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <!-- css file link -->
+    <link rel="stylesheet" href="src/css/styel.css" />
+    <title>Responsive Restaurant Website</title>
+  </head>
+  <body>
+    <!-- header start -->
+    <header>
+      <a href="#" class="logo"><i class="fas fa-utensils"></i>Foodiez</a>
+      <nav class="navbar">
+        <a href="#home" class="active">home</a>
+        <a href="#dishes">dishes</a>
+        <a href="#about">about</a>
+        <a href="#menu">menu</a>
+        <a href="#review">review</a>
+        <a href="#order">order</a>
+      </nav>
+      <div class="icons">
+        <i class="fas fa-bars" id="menu-btn"></i>
+        <i class="fas fa-search" id="search-btn"></i>
+        <i class="fas fa-shopping-cart" id="cart-btn"></i>
+        <i class="fas fa-heart" id="fav-btn"></i>
+      </div>
+      <!-- search form -->
+      <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search" />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/White Sauce Pasta.jpg" alt="" />
+          <div class="content">
+            <h3>White Sauce Pasta</h3>
+            <span class="price">Rs.280</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/Fried Chicken.png" alt="" />
+          <div class="content">
+            <h3>Fried chiken</h3>
+            <span class="price">Rs 350</span>
+            <span class="quantity">qty : 2</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/Pizza.png" alt="" />
+          <div class="content">
+            <h3>Pizza</h3>
+            <span class="price">Rs 250</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="total">total : Rs 1230</div>
+        <a href="#" class="btn">checkout</a>
+      </div>
+      <!-- favorite form -->
+      <form action="" class="fav-form">
+        <h3 class="head">favorite</h3>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/Pizza.png" alt="" />
+          <div class="content">
+            <h3>Pizza</h3>
+            <span class="price">Rs 250</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="src/img/Fried Chicken.png" alt="" />
+          <div class="content">
+            <h3>Fried Chicken</h3>
+            <span class="price">Rs 350</span>
+          </div>
+        </div>
+      </form>
+    </header>
+    <!-- header ends -->
+
+    <!-- home section start -->
+    <section class="home" id="home">
+      <div class="content">
+        <h3>get foods by <span>easy</span> payment</h3>
+        <p>
+          Enjoy delicious meals at unbeatable prices — experience quality
+          dining without breaking the bank! Visit us for hearty food, friendly vibes,
+          and great value every day!
+        </p>
+        <a href="#order" class="btn">order now</a>
+      </div>
+    </section>
+    <!-- home section ends -->
+
+    <!-- dish section start -->
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">our dishes</h3>
+      <h1 class="heading">special <span>dishes</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Roll.jpg" alt="" />
+          <h3>Chicken Roll</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>Rs.120</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Chicken Nuggets.png" alt="" />
+          <h3>Chicken Nuggets</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>Rs 140</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Pasta.jpg" alt="" />
+          <h3>White Sauce Pasta</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>Rs.280</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Pizza.png" alt="" />
+          <h3>Pizza</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>Rs.250</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Ice Cream Sundae.png" alt="" />
+          <h3>Ice Cream Sundae</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+          </div>
+          <span>Rs.300</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+        <div class="box">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="src/img/Fried Chicken.png" alt="" />
+          <h3>Fried Chicken</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <span>Rs.350</span>
+          <a href="#" class="btn">add to order</a>
+        </div>
+      </div>
+    </section>
+    <!-- dish section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+      <h3 class="sub-heading">about us</h3>
+      <h1 class="heading">why <span>choose us</span></h1>
+      <div class="row">
+        <div class="image">
+          <img src="src/img/About.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>best food in the town</h3>
+          <p>
+            Welcome to Foodiez, where every meal is a celebration of flavor.
+            Step into our warm, inviting space and let our team treat you like family.
+            We serve freshly prepared dishes made with love and the finest ingredients.
+            From sizzling starters to mouth-watering mains, every bite tells a story.
+            Don’t miss our signature dishes – customer favorites crafted to perfection.
+            Save room for dessert – our handmade sweets are the perfect ending.
+            Whether it’s a casual lunch or a special dinner, we’re here to make it memorable.
+            Come dine with us – where great food meets genuine hospitality.
+          </p>
+          <p>
+            We also offer takeout and catering services, bringing our delicious flavors to your home or event.
+            Follow us on social media for daily specials, chef’s picks, and exclusive offers!
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fas fa-shipping-fast"></i>
+              <span>fast delivery</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-rupee-sign"></i>
+              <span>easy payment</span>
+            </div>
+            <div class="icons">
+              <i class="fas fa-headset"></i>
+              <span>24/7 service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">learn more</a>
+        </div>
+      </div>
+      <!-- about section ends -->
+    </section>
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">our menu</h3>
+      <h1 class="heading">today's <span>speciality</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Fried Chicken.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Fried Chicken</h3>
+            <p>
+              Crispy, golden, and bursting with flavor — our fried chicken is cooked
+              to perfection every time. One bite and you’ll taste the crunch, the juiciness, and the love!
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.350</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Chicken Nuggets.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Chicken Nuggets</h3>
+            <p>
+              Crispy on the outside, tender on the inside — our chicken nuggets are
+              the perfect bite-sized treat. Packed with flavor and perfect for dipping, they’re a hit every time!
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.140</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Ice Cream Sundae.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Ice Cream Sundae</h3>
+            <p>
+              An ice cream sundae is a delightful dessert made with scoops of ice cream topped with syrup,
+              whipped cream, and cherries. It's a sweet treat enjoyed by all ages, perfect for satisfying any craving.
+
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.300</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Roll.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Chicken Roll</h3>
+            <p>
+              A chicken roll is a delicious wrap filled with tender chicken, fresh vegetables,
+              and flavorful sauces, all rolled up in a soft tortilla or flatbread. It's a perfect on-the-go meal!
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.120</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Pasta.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>White Sauce Pasta</h3>
+            <p>
+              Penne pasta in a rich, creamy sauce with hints of garlic and mixed herbs.
+              Served with sautéed vegetables for a flavorful bite.
+
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.250</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Pizza.png" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Pizza</h3>
+            <p>
+              A pizza is a delicious dish made with a round, flat base of dough topped with sauce, cheese, and various toppings.
+              It's baked until golden and crispy, making it a favorite for any occasion!
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.250</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Burger.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Burger</h3>
+            <p>
+            Juicy grilled patty layered with fresh lettuce, tomato, onions, and cheese in a toasted bun.
+            Served with a side of crispy fries and classic sauces.
+            Perfectly toasted bun adds a satisfying crunch to every bite.
+            </p>
+            <a href="#" class="btn">add to cart</a>
+            <span>Rs.150</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Waffles.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Belgian Waffles</h3>
+            <p>
+              Crisp and fluffy waffles with a golden exterior, served warm with maple syrup or chocolate sauce.
+              Topped with whipped cream, fresh fruits, or a scoop of ice cream.
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.230</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="src/img/Momo.jpg" alt="" />
+            <a href="#" class="fas fa-heart"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+            <h3>Chicken Momo</h3>
+            <p>
+              Steamed dumplings filled with spiced vegetables or meat, wrapped in a soft dough shell.
+              Served with a tangy and spicy dipping sauce.
+
+            </p>
+            <a href="#" class="btn">add to order</a>
+            <span>Rs.160</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- menu section ends -->
+
+    <!-- review section start -->
+    <section class="review" id="review">
+      <h1 class="heading">our customers <span>reviews</span></h1>
+      <div class="box-container">
+        <div class="box">
+          <img src="src/img/Tommy.jpg" alt="" />
+          <h3>Thomas Muller</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            Absolutely loved the cozy atmosphere and attentive service.
+            The food was flavorful and beautifully presented, especially the fried chicken.
+            Definitely a place I’d recommend for a relaxing evening out.
+          </p>
+        </div>
+        <div class="box">
+          <img src="src/img/Virat.jpg" alt="" />
+          <h3>Virat Kohli</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            The ambiance was perfect for a date night. The staff was friendly and
+            the food was delicious. I especially enjoyed the pasta and dessert.
+            Will definitely be back!
+          </p>
+        </div>
+        <div class="box">
+          <img src="src/img/Avik.jpg" alt="" />
+          <h3>Avik Das</h3>
+          <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+          </div>
+          <p>
+            I had a fantastic experience at this restaurant. The service was
+            prompt and the food was exquisite. The chicken roll was a highlight
+            for me. Highly recommend!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- review section ends -->
+
+    <!-- order section start -->
+    <section class="order" id="order">
+      <h1 class="heading"><span>order</span> now</h1>
+      <div class="row">
+        <div class="image">
+          <img src="src/img/Waiter.jpg" alt="" />
+        </div>
+        <form action="">
+          <div class="inputBox">
+            <input type="text" placeholder="Full Name" required />
+            <input type="email" placeholder="example@gmail.com" required />
+          </div>
+          <div class="inputBox">
+            <input type="number" placeholder="Number" required />
+            <input type="text" placeholder="Food Name" required />
+          </div>
+          <textarea
+            placeholder="Address"
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+          ></textarea>
+          <input type="submit" value="order now" class="btn" />
+        </form>
+      </div>
+    </section>
+    <!-- order section ends -->
+
+    <!-- footer start -->
+    <footer class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3>location</h3>
+          <a href="#">kolkata</a>
+          <a href="#">naihati</a>
+          <a href="#">howrah</a>
+          <a href="#">barrackpore</a>
+          <a href="#">kanchrapara</a>
+        </div>
+        <div class="box">
+          <h3>quick links</h3>
+          <a href="#home">home</a>
+          <a href="#dishes">dishes</a>
+          <a href="#about">about</a>
+          <a href="#menu">menu</a>
+          <a href="#review">review</a>
+          <a href="#order">order</a>
+        </div>
+        <div class="box">
+          <h3>contact info</h3>
+          <a href="#">+91 1234567891</a>
+          <a href="#">+91 1234567891</a>
+          <a href="#">+91 1234567891</a>
+          <a href="#">example@gmail.com</a>
+          <a href="#">example@gmail.com</a>
+        </div>
+        <div class="box">
+          <h3>follow us</h3>
+          <a href="#">facebook</a>
+          <a href="#">twitter</a>
+          <a href="#">instagram</a>
+          <a href="#">linkedin</a>
+        </div>
+      </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- scroll btn -->
+    <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
+
+    <!-- js file link -->
+    <script src="src/script/script.js"></script>
+  </body>
+</html>
